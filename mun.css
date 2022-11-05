@@ -34,3 +34,35 @@ width: 100%;
  .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+h1{
+  background-color: white;
+  padding-left: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 30px;
+  padding-right: 5vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  border-radius: 12px;
+}
+h2 {
+  padding-left: 3vw;
+  background-color: white;
+  font-size: 20px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 12px;
+}
+p {
+  padding-left: 3vw;
+  background-color: white;
+  font-size: 20px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 3vw;
+  border-radius: 12px;
+}
+
+
