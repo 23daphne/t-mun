@@ -1,9 +1,13 @@
 body{
-    background-color: burlywood;
+    background-color: #990100;
     font-family: "Kostania Thin";
+}
+.navbar{
+    background-color: #F6F6F6;
 }
 .carousel-inner{
     max-height: 500px !important;
+    background-color: #F6F6F6;
 }
 .carousel img{
     max-height: 500px;
