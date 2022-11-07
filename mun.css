@@ -1,39 +1,50 @@
-body{
-  background-color: #990100;
-  font-family: "Kostania Thin";
+body {
+    background-color: #990100;
+    font-family: "Kostania Thin";
 }
-.navbar{
-  background-color: #F6F6F6;
+
+.navbar {
+    background-color: #F6F6F6;
 }
-.carousel-inner{
-  max-height: 500px !important;
-  background-color: #F6F6F6;
+
+.carousel-inner {
+    max-height: 500px !important;
+    background-color: #F6F6F6;
 }
-.carousel img{
-  max-height: 500px;
-  height: auto;
-  width: auto;
-  margin: auto;
+
+.carousel img {
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    margin: auto;
 }
-head{
-  font-family: "Kostania Thin";
+
+head {
+    font-family: "Kostania Thin";
 }
+
 .column {
-width: 100%;
+    width: 100%;
 }
 
 @media (min-width: 600px) {
-.column {
-  width: 50%;
+    .column {
+        width: 50%;
+    }
 }
-}
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
- }
 
- .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.card-group .card {
+    margin-bottom: 0px;
+}
+
 .metin {
     background-color: #F6F6F6;
     padding-left: 3vw;
@@ -45,6 +56,23 @@ width: 100%;
     margin-top: 3vw;
     margin-bottom: 3vw;
     border-radius: 12px;
+    box-shadow: 10px 10px 5px #333333;
 }
 
+.photo img {
+    width: 40%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 0.5em;
+    margin-top: 7%;
+}
 
+@media (max-width: 768px) {
+    .photo img {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 0.5em;
+        margin-top: 7%;
+    }
+}
