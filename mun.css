@@ -76,3 +76,11 @@ head {
         margin-top: 7%;
     }
 }
+
+.basvuru .card {
+    font-family: "Kostania Thin";
+    text-align: center;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
