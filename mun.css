@@ -56,10 +56,10 @@ head {
     margin-top: 3vw;
     margin-bottom: 3vw;
     border-radius: 12px;
-    box-shadow: 10px 10px 5px #333333;
+    box-shadow: 10px 10px 5px #620000;
 }
 
-.metin p{
+.metin p {
     font-size: 20px;
 }
 
@@ -95,7 +95,7 @@ head {
     font-size: 18px;
 }
 
-.basvuru .card .btn{
+.basvuru .card .btn {
     background-color: red;
     border-color: red;
 }
