@@ -83,4 +83,15 @@ head {
     margin-right: 3vw;
     margin-left: 3vw;
     margin-top: 2vw;
+    border-color: white;
+}
+
+.alt_baslik {
+    font-family: "Kostania Thin";
+    font-size: 18px;
+}
+
+.basvuru .card .btn{
+    background-color: red;
+    border-color: red;
 }
