@@ -59,6 +59,10 @@ head {
     box-shadow: 10px 10px 5px #333333;
 }
 
+.metin p{
+    font-size: 20px;
+}
+
 .photo img {
     width: 40%;
     margin-right: 3%;
