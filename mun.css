@@ -1,6 +1,7 @@
 body {
     background-color: #990100;
-    font-family: "Kostania Thin";
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    overflow: auto;
 }
 
 .navbar {
@@ -20,7 +21,7 @@ body {
 }
 
 head {
-    font-family: "Kostania Thin";
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
 }
 
 .column {
@@ -82,7 +83,7 @@ head {
 }
 
 .basvuru .card {
-    font-family: "Kostania Thin";
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
     text-align: center;
     margin-right: 3vw;
     margin-left: 3vw;
@@ -91,11 +92,26 @@ head {
 }
 
 .alt_baslik {
-    font-family: "Kostania Thin";
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
     font-size: 18px;
 }
 
 .basvuru .card .btn {
     background-color: red;
     border-color: red;
+}
+
+.tick {
+    font-size: 1rem;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+}
+
+.tick-label {
+    font-size: .375em;
+    text-align: center;
+}
+
+.tick-group {
+    margin: 0 .25em;
+    text-align: center;
 }
