@@ -115,3 +115,26 @@ head {
     margin: 0 .25em;
     text-align: center;
 }
+
+.map{
+    text-align: center;
+}
+
+.info{
+    background-color: #F6F6F6;
+    padding-left: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 5vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #620000;
+}
+
+
+.simge .info{
+    text-align: center;
+}
