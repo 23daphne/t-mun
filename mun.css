@@ -91,6 +91,10 @@ head {
     border-color: white;
 }
 
+.basvuru .card img {
+    max-height: 60%;
+}
+
 .alt_baslik {
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
     font-size: 18px;
@@ -116,11 +120,11 @@ head {
     text-align: center;
 }
 
-.map{
+.map {
     text-align: center;
 }
 
-.info{
+.info {
     background-color: #F6F6F6;
     padding-left: 3vw;
     padding-top: 1vw;
@@ -134,7 +138,6 @@ head {
     box-shadow: 10px 10px 5px #620000;
 }
 
-
-.simge .info{
+.simge .info {
     text-align: center;
 }
