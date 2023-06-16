@@ -51,11 +51,6 @@ head {
     margin-right: auto;
     display: block;
     margin-top: 2vw;
-    width: 350px; 
-    height: 350px;
-    border: 5px solid white;
-    border-radius: 12px;
-    box-shadow: 10px 10px 5px #620000;
     margin-bottom: 2vw;
 }
 
@@ -72,10 +67,6 @@ head {
     border-radius: 12px;
     box-shadow: 10px 10px 5px #620000;
     font-size: 40px;
-}
-
-.metin h1{
-    text-align: center;
 }
 
 .metin p {
