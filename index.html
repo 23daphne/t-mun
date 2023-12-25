@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SİTE BAŞLIK İSMİ -->
+
+    <title>T-MUN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="mun.css" />
+
+    <!-- SİTE TİTLE LOGO KISMI -->
+
+    <link rel="shortcut icon" type="image/png" href="logo-icon/tmunlogo.png" />
+
+    <!-- FONT EKLEME -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
+    </style>
+
+    <!-- COUNTDOWN SOURCE -->
+
+    <link rel="stylesheet" href="flip/flip.min.css" />
+
+</head>
+
+<body>
+
+    <!-- ÜSTTEKİ BEYAZ NAVBAR LOGO KISMI -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo-icon/tmunlogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> T-Mun
+        </a>
+
+        <!-- NAVBAR KISMI -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="ekip.html">Ekibimiz</a>
+                <a class="nav-item nav-link active" href="basvuru.html">Başvurular</a>
+                <a class="nav-item nav-link active" href="komite.html">Komiteler</a>
+                <a class="nav-item nav-link active" href="kvkk.html">KVKK Aydınlatma Metni ve Formlar</a>
+            </div>
+    </nav>
+
+
+
+    <!-- CAROUSEL (AKTİF HAREKETLİ) KISIM -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <a>
+                        <img src="logo-icon/tmunlogo.png" alt="...">
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <a href="basvuru.html">
+                        <img src="site-ici-foto/basvurular-acildi.jpg" alt="...">
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <a>
+                        <img src="site-ici-foto/tmun24.png" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- T-MUN LOGO KISMI (MUHTEMELEN GEÇİCİ) -->
+
+    <!-- <div class="logo">
+        <img style="margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    margin-top: 2vw;
+                    width: 350px; 
+                    height: 350px;
+                    border: 5px solid white;
+                    border-radius: 12px;
+                    box-shadow: 10px 10px 5px #620000;
+                    margin-bottom: 2vw;" class="tmun-logo" src="logo-icon/T-MUN LOGO.jpg">
+    </div>
+    --!>
+
+    <!-- T-MUN'24 YAZISI (MUHTEMELEN DEĞİŞECEK) -->
+
+    <div class="metin">
+        <h1>
+            <center>T-MUN'24</center>
+        </h1>
+    </div>
+
+    <!-- COUNTDOWN KISMI -->
+
+    <div class="metin">
+        <h2>Başvuruların kapanmasına...</h2>
+        <div class="container" style="margin: 15px auto; max-width: 760px;">
+            <div class="tick" data-did-init="handleTickInit">
+                <div data-repeat="true" data-layout="horizontal center fit"
+                    data-transform="preset(d, h, m, s) -> delay">
+                    <div class="tick-group">
+                        <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                            <span data-view="flip"></span>
+                        </div>
+                        <span data-key="label" data-view="text" class="tick-label"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KONFERANS PROGRAMI KISMI -->
+
+    <!--<div style="background-color: #F6F6F6; margin-right: 2vw; margin-left: 2vw; margin-top: 3vw; margin-bottom: 1vw; padding-right: 2vw; padding-top: 1vw; padding-bottom: 1vw; border-radius: 12px; text-align: center; box-shadow: 10px 10px 5px #620000;">
+        <h1>Konferans Programı</h1>
+    </div>
+    <div class="card-group">
+        <div class="card" style="padding-right: 2vw; padding-top: 1vw; padding-bottom: 1vw; margin-right: 2vw; margin-left: 2vw; margin-top: 2vw; margin-bottom: 3vw; border-radius: 12px; box-shadow: 10px 10px 5px #620000;">
+          <div class="card-body">
+            <h5 class="card-title"><b><u>21 Ocak</u></b></h5>
+            <p class="card-text">
+                <u><b>9.30-10.45</b></u> Karşılama <br>
+                <u><b>10.45-11.30</b></u> A Grubu Açılış Konuşması/ B Grubu Tanışma+Fotoğraf Çekimi <br>
+                <u><b>11.30- 12.15</b></u> B Grubu Açılış konuşması/ A Grubu Tanışma+Fotoğraf Çekimi <br>
+                <u><b>12.15- 12.30</b></u> B Grubu Kahve Arası <br>
+                <u><b>12.15-13.00</b></u> A Grubu 1.Oturum <br>
+                <u><b>12.30-13.15</b></u> B Grubu 1.Oturum <br>
+                <u><b>13.00-13.15</b></u> A Grubu Kahve Arası <br>
+                <u><b>13.15-14.00</b></u> B Grubu Öğle Arası <br>
+                <u><b>13.15-14.00</b></u> A Grubu 2. Oturum <br>
+                <u><b>14.00-14.45</b></u> A Grubu Öğle Arası <br>
+                <u><b>14.00-14.45</b></u> B Grubu 2. Oturum <br>
+                <u><b>14.45- 15.00</b></u> Kahve Arası <br>
+                <u><b>15.00-16.30</b></u> 3. Oturum <br>
+                <u><b>16.30-16.45</b></u> Kahve Arası <br>
+                <u><b>16.45-18.15</b></u> 4. Oturum</p>
+          </div>
+        </div>
+        <div class="card" style="padding-right: 2vw; padding-top: 1vw; padding-bottom: 1vw; margin-right: 2vw; margin-left: 2vw; margin-top: 2vw; margin-bottom: 3vw; border-radius: 12px; box-shadow: 10px 10px 5px #620000;">
+          <div class="card-body">
+            <h5 class="card-title"><b><u>22 Ocak</u></b></h5>
+            <p class="card-text">
+                <u><b>9.15-11.00</b></u> 5.Oturum <br>
+                <u><b>11.00-11.15</b></u> Kahve Arası <br>
+                <u><b>11.15-13.00</b></u> A Grubu 6.Oturum <br>
+                <u><b>11.15-12.45</b></u> B Grubu 6. Oturum <br>
+                <u><b>12.45-13.00</b></u> B Grubu Kahve Arası <br>
+                <u><b>13.00-13.45</b></u> A Grubu Öğle Arası <br>
+                <u><b>13.00-13.45</b></u> B Grubu 7. Oturum <br>
+                <u><b>13.45-14.30</b></u> B Grubu Öğle Arası <br> 
+                <u><b>13.45-14.30</b></u> A Grubu 7. Oturum <br>
+                <u><b>14.30-14.45</b></u> Kahve Arası <br>
+                <u><b>14.45-16.15</b></u> 8.Oturum <br> 
+                <u><b>16.15-16.30</b></u> Kahve Arası <br>
+                <u><b>16.30-18.00</b></u> 9.Oturum <br>
+                <u><b>19.30-22.00</b></u> Parti</p>
+          </div>
+        </div>
+        <div class="card" style="padding-right: 2vw; padding-top: 1vw; padding-bottom: 1vw; margin-right: 2vw; margin-left: 2vw; margin-top: 2vw; margin-bottom: 3vw; border-radius: 12px; box-shadow: 10px 10px 5px #620000;">
+          <div class="card-body">
+            <h5 class="card-title"><b><u>23 Ocak</u></b></h5>
+            <p class="card-text">
+                <u><b>9.15-11.00</b></u> 10.Oturum <br>
+                <u><b>11.00-11.15</b></u> Kahve Arası <br>
+                <u><b>11.15-13.00</b></u> A Grubu 11.Oturum <br>
+                <u><b>11.15-12.45</b></u> B Grubu 11. Oturum <br>
+                <u><b>12.45-13.00</b></u> B Grubu Kahve Arası <br>
+                <u><b>13.00-13.45</b></u> A Grubu Öğle Arası <br>
+                <u><b>13.00-13.45</b></u> B Grubu 12. Oturum <br>
+                <u><b>13.45-14.30</b></u> B Grubu Öğle Arası <br>
+                <u><b>13.45-14.30</b></u> A Grubu 12. Oturum <br>
+                <u><b>14.30-14.45</b></u> Kahve Arası <br>
+                <u><b>14.45-16.15</b></u> 13.Oturum <br>
+                <u><b>16.15-17.15</b></u> KAPANIŞ</p>
+          </div>
+        </div>
+      </div>
+    !-->
+
+
+    <!--<div class="metin">
+        <h2>Genel Sekreterin Mesajı</h2> <br>
+        <p>Değerli Katılımcılar, <br>
+            <br> 21-22-23 Ocak 2023 tarihlerinde gerçekleştirilecek olan TAKEV Model Birleşmiş Milletler
+            Konferansı’nın üçüncü resmi oturumunda yönetim ekibimiz adına sizleri ağırlamaktan onur duyuyoruz.
+            Geçmiş yıllara dayanan deneyimlerimizin, bu yılki
+            TMUN'u unutulmaz bir deneyim hâline getirmek için bize gerekli deneyimi sağladığına inanıyoruz ve bu üç
+            günü sizlerle paylaşacak olmaktan mutluluk duyuyoruz. <br>
+            <br> TMUN’23'ün yönetim ekibi olarak zorlu ve düşündürücü gündem maddelerimizle tüm katılımcılar için
+            ufuk açıcı bir konferans ortamı yaratmayı amaçlıyoruz. Çalışkan ve özverili akademik ekibimiz, güçlü bir
+            tutkuya sahip oldukları konular
+            üzerine yoğunlaşarak güncel ve geniş kapsamlı komite ve gündem maddelerini ortaya çıkardı.
+            Konferansımızda düşündürücü Genel Kurul Komitelerinden dinamik krizlere kadar uzanan 9 komitemiz
+            arasından delegelerin ilgi alanlarına uygun bir komite
+            bulacaklarına gönülden inanıyoruz. <br>
+            <br> Çalışkan delegelerimizden yenilikçi fikirler görmeyi dört gözle bekliyor ve tüm katılımcıların
+            modern dünya problemlerine yeni bir bakış açısı kazanmış olarak konferanstan ayrılmalarını umuyoruz.
+            <br>
+            <br> Saygılarımla, <br>
+            <br> Elif Ayşe Yıldız
+            <br> TMUN’24 Genel Sekreteri
+        </p>
+    </div>
+    !-->
+
+    <!-- BİZE ULAŞIN KISMI -->
+
+    <div class="info">
+        <h1 style="font-size: 27px;">Bize Ulaşın</h1>
+        <p style="font-size: 20px;" class="simge"><img img src="logo-icon/mail_icon.png" width="30vw">&nbsp;<a
+                style="color: #B90504" href="mailto:tmun.iletisim@gmail.com" target="_blank">tmun.iletisim@gmail.com</a>
+            <br>
+            <img img src="logo-icon/instagram-logo.png" width="30vw">&nbsp;<a style="color: #B90504"
+                href="https://www.instagram.com/tmun.24/" target="_blank">tmun.24</a>
+        </p>
+        <p class="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.7622119885145!2d26.991275715613256!3d38.40074678366982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbdce63d42e189%3A0x86255f409e2ed043!2sPrivate%20Takev%20Schools%20-%20High%20School%20Takev%20Narlidere!5e0!3m2!1sen!2str!4v1669569703725!5m2!1sen!2str"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> <!-- BOOTSTRAP SOURCE -->
+    <script src="flip/flip.min.js"></script> <!-- COUNTDOWN SOURCE -->
+
+    <!-- COUNTDOWN KODU -->
+
+    <script>
+        function handleTickInit(tick) {
+
+            var locale = {
+                YEAR_PLURAL: 'Yıl',
+                YEAR_SINGULAR: 'Yıl',
+                MONTH_PLURAL: 'Ay',
+                MONTH_SINGULAR: 'Ay',
+                WEEK_PLURAL: 'Hafta',
+                WEEK_SINGULAR: 'Hafta',
+                DAY_PLURAL: 'Gün',
+                DAY_SINGULAR: 'Gün',
+                HOUR_PLURAL: 'Saat',
+                HOUR_SINGULAR: 'Saat',
+                MINUTE_PLURAL: 'Dakika',
+                MINUTE_SINGULAR: 'Dakika',
+                SECOND_PLURAL: 'Saniye',
+                SECOND_SINGULAR: 'Saniye',
+                MILLISECOND_PLURAL: 'Milliseconden',
+                MILLISECOND_SINGULAR: 'Milliseconde'
+            };
+
+            for (var key in locale) {
+                if (!locale.hasOwnProperty(key)) {
+                    continue;
+                }
+                tick.setConstant(key, locale[key]);
+            }
+
+
+            Tick.count.down('2024-1-5 03:00:00').onupdate = function (value) {
+                tick.value = value;
+            };
+        }
+    </script>
+
+</body>
+
+</html>
