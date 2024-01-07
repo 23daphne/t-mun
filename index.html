@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="flip/flip.min.css" />
 
+
 </head>
 
 <body>
@@ -128,7 +129,7 @@
     <!-- COUNTDOWN KISMI -->
 
     <div class="metin">
-        <h2>Başvuruların kapanmasına...</h2>
+        <h2>Konferansın başlamasına...</h2>
         <div class="container" style="margin: 15px auto; max-width: 760px;">
             <div class="tick" data-did-init="handleTickInit">
                 <div data-repeat="true" data-layout="horizontal center fit"
@@ -268,7 +269,8 @@
 
     <!-- COUNTDOWN KODU -->
 
-    <script>
+    
+        <script>
         function handleTickInit(tick) {
 
             var locale = {
@@ -298,12 +300,12 @@
             }
 
 
-            Tick.count.down('2024-01-06 03:00:00').onupdate = function (value) {
+            Tick.count.down('2024-1-20 11:30:00').onupdate = function (value) {
                 tick.value = value;
             };
         }
     </script>
-
+    
 </body>
 
 </html>
