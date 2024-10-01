@@ -1,5 +1,5 @@
 body {
-    background-color: #021065;/*#990100;*/
+    background-color: #003C5C;/*#021065;/*#990100;*/
     font-family: 'Noto Sans Mende Kikakui', sans-serif;
     overflow: auto;
 }
@@ -65,7 +65,7 @@ head {
     margin-top: 3vw;
     margin-bottom: 1vw;
     border-radius: 12px;
-    box-shadow: 10px 10px 5px #0099CC;
+    box-shadow: 10px 10px 5px #021065;
     font-size: 40px;
 }
 
@@ -144,7 +144,7 @@ head {
     margin-top: 3vw;
     margin-bottom: 3vw;
     border-radius: 12px;
-    box-shadow: 10px 10px 5px #0099CC;
+    box-shadow: 10px 10px 5px #021065;
 }
 
 .simge .info {
