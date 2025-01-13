@@ -150,3 +150,59 @@ head {
 .simge .info {
     text-align: center;
 }
+
+.schedule-container {
+    margin: 20px auto;
+    width: max-content;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    padding: 16px;
+    text-align: left;
+    height: auto;
+}
+
+.schedule-container .head {
+    margin: 0 0;
+    display: flex;
+    border-radius: 8px;
+    padding: 6px 0;
+    justify-content: space-evenly;
+    background-color: #004a71;
+}
+
+.schedule-container .head h1 {
+    display: inline-block;
+    margin: 0 0;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+    width: 20vw;
+    cursor: pointer
+}
+
+.schedule-container .head h1:hover {
+    color: #acacac;
+}
+
+.schedule-container .body {
+    margin: 0 0;
+    padding: 0 0;
+    vertical-align: top;
+}
+
+.schedule-container ul {
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.schedule-container ul li {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.schedule-container ul li strong {
+    color: #004a71;
+    text-decoration: underline;
+}
