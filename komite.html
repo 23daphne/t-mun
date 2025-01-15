@@ -9,8 +9,6 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="mun.css" />
     <link rel="shortcut icon" type="image/png" href="logo-icon/tmunlogo.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
     </style>
@@ -21,10 +19,9 @@
         <a class="navbar-brand" href="index.html">
             <img src="logo-icon/tmunlogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> T-Mun
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="ekip.html">Ekibimiz</a>
@@ -37,17 +34,18 @@
         </div>
     </nav>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Komitelerin gündem maddelerine ve çalışma rehberlerine erişmek için komite resimlerine tıklayınız.
+        Komitelerin çalışma rehberlerini indirmek için komite resimlerine tıklayınız.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <div class="card-group">
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal1"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/insan-hak.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/İnsan Hakları Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/insan-hak.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
                     <center>İnsan Hakları Komitesi<span class="badge badge-success mx-1 my-1">Başlangıç</span></center>
@@ -55,10 +53,11 @@
             </div>
         </div>
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal2"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/kadin-hak.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Kadın Hakları Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/kadin-hak.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
                     <center>Kadın Hakları Komitesi<span class="badge badge-success mx-1 my-1">Başlangıç</span></center>
@@ -66,164 +65,52 @@
             </div>
         </div>
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal3"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/egitim-bilim.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Eğitim, Kültür, Bilim Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/egitim-bilim.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
-                    <center>Eğitim, Bilim ve Kültür Komitesi<span class="badge badge-success mx-1 my-1">Başlangıç</span>
-                    </center>
+                    <center>Eğitim, Kültür, Bilim Komitesi<span class="badge badge-success mx-1 my-1">Başlangıç</span></center>
                 </h5>
             </div>
         </div>
-        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">İnsan Hakları Komitesi<span
-                                class="badge badge-success mx-1 my-1">Başlangıç</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">İnsan Hakları Komitesi</strong><br><br> <b><i>Gündem
-                                    Maddesi 1:</i></b> <br> <strong>&bull;</strong>Dünya genelinde süregelen savaşlarda
-                            mağdur olan insanların haklarının korunumu<br> <b><i>Gündem Maddesi 2:</i></b><br>
-                            <strong>&bull;</strong>Gelişmekte olan ve gelişmemiş ülkelerde baş gösteren çocuk işçi
-                            probleminin insan hakları çerçevesinde değerlendirilmesi <br><br> Gelişmekte olan ve
-                            gelişmemiş ülkelerde çocuk işçiliği sorunu, insan hakları açısından ciddi bir mesele. İnsan
-                            Hakları Komitesi, bu gündem maddesi altında çocuk işçiliğinin yaygın olduğu bölgelerdeki
-                            durumu, sorunun kökenlerini ve bu çocukların haklarının korunması için neler yapılması
-                            gerektiğini tartışacak. <br> Dünya genelindeki savaşlar, birçok insanın haklarını ciddi
-                            şekilde etkiliyor. İnsan Hakları Komitesi, bu gündem maddesi altında savaşlarda mağdur olan
-                            insanların haklarını ve bu hakların korunması için uluslararası toplumun nasıl bir rol
-                            üstlenebileceğini ele alacak.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="insan_haklari-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("insan_haklari-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/İnsan Hakları Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Kadın Hakları Komitesi<span
-                                class="badge badge-success mx-1 my-1">Başlangıç</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Kadın Hakları Komitesi</strong><br><br> <b><i>Gündem
-                                    Maddesi 1:</i></b> <br> <strong>&bull;</strong>Gelişmemiş ülkelerde yaşayan
-                            kadınların yaşadıkları sorunların değerlendirilmesi
-                            <br> <b><i>Gündem Maddesi 2:</i></b> <br> <strong>&bull;</strong>Gelişmemiş ülkelerde
-                            yaşayan kız çocuklarının eğitime olan erişiminin kolaylaştırılması <br><br> Gelişmekte olan
-                            ülkelerde yaşayan kadınlar, bir dizi sorunla karşı karşıya. Kadın Hakları Komitesi, bu
-                            gündem maddesi altında gelişmemiş ülkelerde yaşayan kadınların yaşadığı zorlukları, hak
-                            ihlallerini ve karşılaştıkları sorunları değerlendirecek. <br> Gelişmemiş ülkelerde kız
-                            çocuklarının eğitime erişimi, daha fazla dikkat gerektiren bir konu haline geliyor. Kadın
-                            Hakları Komitesi, bu gündem maddesi altında gelişmemiş ülkelerde kız çocuklarının eğitimine
-                            yönelik engelleri, çözüm önerilerini ve eğitime erişimi arttırmak için neler
-                            yapılabileceğini araştıracak.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="kadin_haklari-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("kadin_haklari-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Kadın Hakları Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Eğitim, Bilim ve Kültür Komitesi<span
-                                class="badge badge-success mx-1 my-1">Başlangıç</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Eğitim, Bilim ve Kültür Komitesi</strong><br><br> <b><i>
-                                    Gündem Maddesi 1: </i></b> <br> <strong>&bull;</strong>Göç nedeniyle oluşan temel
-                            eğitim sorunlarının incelenmesi
-                            <br> <b><i> Gündem Maddesi 2: </i></b> <br> <strong>&bull;</strong>Sürdürülebilir kalkınma
-                            için ülkelerde eğitim modellerinin geliştirilmesi ve uygulanması <br><br> Göç, temel
-                            eğitimde sorunlara neden olan önemli bir faktördür. Eğitim, Bilim ve Kültür Komitesi, bu
-                            gündem maddesi altında göç nedeniyle oluşan eğitim sorunlarını inceliyor. Göçün eğitim
-                            üzerindeki etkileri ve bu konudaki çözüm önerileri üzerine düşünmek için bu tartışmaya
-                            katılın. <br> Sürdürülebilir kalkınma için eğitim modellerinin geliştirilmesi ve
-                            uygulanması, küresel
-                            düzeyde büyük önem taşıyor. Eğitim, Bilim ve Kültür Komitesi, bu gündem maddesi altında
-                            ülkelerde sürdürülebilir kalkınma için eğitim modellerini tartışacak.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="egitim_bilim_kultur-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("egitim_bilim_kultur-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Eğitim, Bilim Kültür Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div>
     <br>
     <div class="card-group">
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal4"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/ekonomi.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Ekonomi, Sosyal Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/ekonomi.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
-                    <center>Ekonomi ve Sosyal Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
+                    <center>Ekonomi, Sosyal Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
                 </h5>
             </div>
         </div>
+        <!--
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal10"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/cevre-sag.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Sağlık Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/?.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
-                    <center>Çevre ve Sağlık Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
+                    <center>Sağlık Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
                 </h5>
             </div>
         </div>
+        -->
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal5"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/kalkinma.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Kalkınma Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/kalkinma.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
                     <center>Kalkınma Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
@@ -231,329 +118,52 @@
             </div>
         </div>
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal6"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/bilim-teknoloji.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Teknoloji, Bilim Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/bilim-teknoloji.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
-                    <center>Bilim ve Teknoloji Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
+                    <center>Teknoloji, Bilim Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span></center>
                 </h5>
             </div>
         </div>
-        <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Ekonomi ve Sosyal Komitesi<span
-                                class="badge badge-warning mx-1 my-1">Orta</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Ekonomi ve Sosyal Komitesi</strong><br><br> <b><i> Gündem
-                                    Maddesi 1: </i></b> <br> <strong>&bull;</strong>Filistin ve İsrail arasındaki
-                            gerilimin BM taraf ülkelerine olan sosyal ve ekonomik etkilerinin incelenmesi<br> <b><i>
-                                    Gündem Maddesi 2: </i></b> <br>
-                            <strong>&bull;</strong>IMF verileri ışığında küresel ekonominin geliştirilmesi ve
-                            büyütülmesi için yapılabilecek çalışmalar <br><br>
-                            Filistin ve İsrail arasındaki siyasi ve askeri gerilim, sadece bölgeye değil, aynı zamanda
-                            Birleşmiş Milletler üye ülkelerine de derin etkiler bırakıyor. Bu gündem maddesi altında,
-                            gerilimin sosyal ve ekonomik boyutları ele alınacak ve uluslararası toplumun bu duruma karşı
-                            nasıl bir tepki gösterebileceği tartışılacak.
-                            <br>
-                            IMF verileri, küresel ekonominin geliştirilmesi ve büyütülmesi için önemli bir kaynak
-                            sunuyor. Bu gündem maddesi altında, IMF verileri ışığında küresel ekonominin nasıl
-                            geliştirilebileceği ve büyütülebileceği ele alınacak.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="ekonomi-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("ekonomi-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Ekonomi ve Sosyal Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Kalkınma Komitesi<span class="badge badge-warning mx-1 my-1">Orta</span>
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Kalkınma Komitesi</strong><br><br> <b><i> Gündem Maddesi
-                                    1:</i></b> <br> <strong>&bull;</strong>Avrupa Yeşil Anlaşması ile amaçlanan
-                            kalkınmanın incelenmesi<br> <b><i> Gündem Maddesi 2:</i></b>
-                            <br><strong>&bull;</strong>Covid 19 pandemisi dolayısıyla ülkelerde artış gösteren
-                            enflasyonun etkisi <br><br> Avrupa Yeşil Antlaşması, sürdürülebilir kalkınma hedeflerine
-                            yönelik önemli adımlar içeriyor. Kalkınma Komitesi, bu gündem maddesi altında Avrupa Yeşil
-                            Antlaşması'nın amaçladığı sürdürülebilir kalkınma hedeflerini ve bu antlaşmanın etkilerini
-                            inceleyecek.
-                            <br>
-                            Covid-19 pandemisi, birçok ülkede enflasyonun artmasına neden oldu. Kalkınma Komitesi, bu
-                            gündem maddesi altında pandemi dolayısıyla artan enflasyon sorununu çözümlemeye yönelik
-                            çözüm önerilerini tartışacak.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="kalkinma-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("kalkinma-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Kalkınma Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Çevre ve Sağlık Komitesi<span
-                                class="badge badge-warning mx-1 my-1">Orta</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Çevre ve Sağlık Komitesi</strong><br><br> <b><i> Gündem
-                                    Maddesi
-                                    1:</i></b> <br> <strong>&bull;</strong>Küresel ısınma etkisi ile
-                            biyoçeşitlilikteki azalmanın canlıların hayatına etkisi ve alınabilecek önlemler<br> <b><i>
-                                    Gündem Maddesi 2:</i></b> <br><strong>&bull;</strong>Ekosistemdeki mikroplastiklerin
-                            çevreye ve insan sağlığına olan etkisi ve durumun önlenmesi <br><br> Küresel ısınmanın
-                            etkisi altında biyoçeşitlilikte yaşanan azalma, canlıların yaşamına ciddi etkiler yaratıyor.
-                            Çevre ve Sağlık Komitesi, bu gündem maddesi altında küresel ısınmanın biyoçeşitlilik
-                            üzerindeki etkilerini inceleyecek ve bu durumun canlı yaşamına olan etkilerini azaltmak
-                            adına alınabilecek önlemleri tartışacak. <br>
-                            Ekosistemdeki mikroplastiklerin çevre ve insan sağlığı üzerindeki olumsuz etkileri
-                            giderek artıyor. Çevre ve Sağlık Komitesi, bu gündem maddesi altında mikroplastiklerin
-                            etkilerini ve çevreye olan zararlarını inceleyecek ve bu durumun önlenmesi için alınabilecek
-                            adımları tartışacak.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="cevre_saglik-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("cevre_saglik-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Çevre ve Sağlık Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Bilim ve Teknoloji Komitesi<span
-                                class="badge badge-warning mx-1 my-1">Orta</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Bilim ve Teknoloji Komitesi</strong><br><br> <b><i> Gündem
-                                    Maddesi 1:</i></b> <br> <strong>&bull;</strong>Küresel dünyada yapay zekanın
-                            kullanımının yaygınlaştırılabileceği alanlar ve bunun oluşturabileceği tehlikelerin
-                            araştırılması
-                            ve araştırma süreçleri <br> <b><i> Gündem Maddesi 2:</i></b> <br>
-                            <strong>&bull;</strong>Genetiği değiştirilmiş tarımsal ürünlerin, toplum üzerindeki
-                            etkilerinin araştırılması ve incelenmesi <br><br> Yapay zeka, küresel dünyada yaygınlaşan
-                            bir teknoloji olma yolunda ilerliyor. Bilim ve Teknoloji Komitesi, bu gündem maddesi altında
-                            yapay zekanın kullanılabileceği alanları ve beraberinde getirebileceği olası tehlikeleri
-                            araştıracak. <br>
-                            Genetiği değiştirilmiş tarımsal ürünler, toplum üzerinde tartışmalara neden olan bir konu.
-                            Bilim ve Teknoloji Komitesi, bu gündem maddesi altında GDO'ların toplum üzerindeki
-                            etkilerini ve beraberinde getirebileceği sonuçları inceleyecek.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="bilim-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("bilim-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Bilim ve Teknoloji Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
+        <div class="card">
+            <a href="calisma-rehberleri/Müşterek Kriz Komitesi.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/kriz.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
+            <div class="card-body">
+                <h5 class="card-title" style="margin-left: middle;">
+                    <center>Müşterek Kriz Komitesi<span class="badge badge-secondary mx-1 my-1">Kriz</span></center>
+                </h5>
             </div>
         </div>
     </div>
+    <br>
     <div class="card-group">
+        <!--
         <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal7"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/hukuk.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
+            <a href="calisma-rehberleri/Mülteciler Yüksek Komiserliği.pdf" target="_blank">
+                <button class="btn btn-primary" style="border-color: #F6F6F6; background-color: #F6F6F6;">
+                    <img src="komiteler/?.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
+                </button>
+            </a>
             <div class="card-body">
                 <h5 class="card-title" style="margin-left: middle;">
-                    <center>Hukuk Komitesi<span class="badge badge-danger mx-1 my-1">Zor</span></center>
+                    <center>Mülteciler Yüksek Komiserliği<span class="badge badge-danger mx-1 my-1">Zor</span></center>
                 </h5>
             </div>
         </div>
-        <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal8"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/guvenlik.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
-            <div class="card-body">
-                <h5 class="card-title" style="margin-left: middle;">
-                    <center>Güvenlik Komitesi<span class="badge badge-danger mx-1 my-1">Zor</span></center>
-                </h5>
-            </div>
-        </div>
-        <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Hukuk Komitesi<span class="badge badge-danger mx-1 my-1">Zor</span></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Hukuk Komitesi</strong><br><br> <b><i> Gündem Maddesi
-                                    1:</i></b> <br> <strong>&bull;</strong>Artan su ihtiyacı sorunuyla birlikte
-                            uluslararası su hukukunda ortaya çıkan açıkların incelenmesi<br> <b><i> Gündem Maddesi
-                                    2:</i></b>
-                            <br> <strong>&bull;</strong>Gelişmiş ülkelerde uygulanan nüfus kontrol yöntemlerinin
-                            doğruluğunun hukuki açıdan incelenmesi <br><br> Artan su ihtiyacı sorunu, uluslararası su
-                            hukukunda önemli açıklara yol açıyor. Hukuk Komitesi, bu gündem maddesi altında artan su
-                            ihtiyacıyla birlikte uluslararası su hukukundaki eksiklikleri ve mevcut açıkları
-                            inceleyecek. <br> Gelişmiş ülkelerde uygulanan nüfus kontrol yöntemleri, hukuki açıdan
-                            dikkate alınması gereken bir konu olarak ön plana çıkıyor. Hukuk Komitesi, bu gündem maddesi
-                            altında gelişmiş ülkelerdeki nüfus kontrol politikalarını ve bunların hukuki boyutunu
-                            inceleyecek.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="hukuk-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("hukuk-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Hukuk Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Güvenlik Komitesi<span class="badge badge-danger mx-1 my-1">Zor</span>
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Güvenlik Komitesi</strong><br><br> <b><i>Gündem
-                                    Maddesi</i></b> <br> <strong>&bull;</strong>Rusya ve Ukrayna arasındaki savaşın
-                            sınır güvenliği üzerindeki etkisi <br><br> Ukrayna ve Rusya arasındaki çatışmalar,
-                            sınırların
-                            güvenliği ve bölgesel istikrar üzerinde önemli bir etki yaratıyor. Güvenlik Komitesi, bu
-                            gündem maddesi altında Ukrayna ve Rusya arasındaki çatışmaların sınırların güvenliği ve
-                            uluslararası istikrar üzerindeki etkilerini tartışacak.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="guvenlik-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("guvenlik-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Güvenlik Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card-group">
-        <div class="card">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modal9"
-                style="border-color: #F6F6F6; background-color: #F6F6F6;">
-                <img src="komiteler/kriz.jpeg" alt="Open Modal" style="width: 100%; object-fit: cover;">
-            </button>
-            <div class="card-body">
-                <h5 class="card-title" style="margin-left: middle;">
-                    <center>Kriz Komitesi<span class="badge badge-secondary mx-1 my-1">Kriz</span></center>
-                </h5>
-            </div>
-        </div>
-        <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Kriz Komitesi<span class="badge badge-secondary mx-1 my-1">Kriz</span>
-                        </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p><strong style="font-size: larger;">Kriz Komitesi</strong><br><br> <b><i>Gündem
-                                    Maddesi</i></b> <br> <strong>&bull;</strong>2070 pandemi sonrası ticari kriz
-                            <br><br>
-                            Covid-19’un evrilmesiyle yeni bir virüs ortaya çıkmıştır. Ülkelerin sınırlarını kapatmasıyla
-                            birlikte dünya ticareti durur. Dünya ticari devleri güçlerini kaybetmeleriyle birlikte
-                            gelişmekte olan ülkelerin vatandaşları temel ihtiyaçlarına ulaşamamaya başlar. Tüm ülkeler
-                            batmakta, vatandaşlar ölmektedir. Virüs, dünya üzerinden silindiğinde bile ekonomik etkileri
-                            devam eder. Kriz Komitesi’nde bu ekonomik etkilerin üstesinden gelin ve dünya ticaretini
-                            canlandırın.
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button id="kriz-button" type="button" class="btn btn-secondary mx-auto"
-                            style="border-color: red; background-color: red;">Çalışma Rehberi
-                            <script>
-                                var pdfButton = document.getElementById("kriz-button");
-                                pdfButton.addEventListener("click", function () {
-                                    window.open("/calisma-rehberleri/Kriz Komitesi Çalışma Rehberi.pdf", "_blank");
-                                });
-                            </script>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        -->
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
