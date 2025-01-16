@@ -40,7 +40,7 @@ const schedules = {
       <li><strong>13.40 - 14.40</strong> B Grubu 10. Oturum | A Grubu Öğle Arası</li>
       <li><strong>14.40 - 15.00</strong> Kahve Arası</li>
       <li><strong>15.00 - 16.30</strong> 11. Oturum</li>
-      <li><strong>16.50 - 16.30</strong> Kapanış</li>
+      <li><strong>16.50 - 17.50</strong> Kapanış</li>
     </ul>
   `
 };
